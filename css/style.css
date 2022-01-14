@@ -1,23 +1,43 @@
-.page-wrapper{
+.page-wrapper {
     border-radius: 3px;
     background-color: #bebdbd;
     margin: 2rem;
     padding: 2rem;
 }
-.p-header{
+
+.p-header {
     text-align: center;
 }
-.p-header>h1{
+
+.p-header>h1 {
     font-size: 2rem;
     font-weight: 700 !important;
 }
-.hero-container{
+
+.hero-container {
     background-color: white;
     text-align: center;
     padding: 3rem;
-    
 }
-.img-caption{
+
+.img-caption {
     padding-top: 1.5rem;
     font-size: 1rem;
+}
+
+.list-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.list-title {
+    max-width: 550px;
+    margin: 0 auto 50 auto;
+    padding-top: 2rem !important;
+}
+
+span {
+    font-weight: bold;
 }
